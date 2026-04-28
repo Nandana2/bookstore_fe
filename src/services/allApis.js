@@ -185,3 +185,20 @@ export const getAdminAllUsersApi = async()=>{
 
  }
 
+
+ // get user profile details api
+export const getAdminProfileApi = async () => {
+    const header = {
+        "Authorization": `Token ${sessionStorage.getItem('token')}`
+    }
+    return await commonApi(`${base_url}/get-profile`, 'GET', {}, header)
+}
+
+// update user profile api
+export const updateAdminProfileApi = async (data) => {
+    const header = {
+        "Authorization": `Token ${sessionStorage.getItem('token')}`,
+        "Content-Type": "multipart/form-data"
+    }
+    return await commonApi(`${base_url}/profile-update`, 'PUT', data, header)
+}
