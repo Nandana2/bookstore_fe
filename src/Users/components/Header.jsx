@@ -9,7 +9,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { toast } from 'react-toastify';
 import base_url from '../../services/base_url';
 
-import { profileContext } from '../../contextApi/ContextApi';
+import { profileContext } from '../../ContextApi/ContextApi';
 import { useContext } from 'react';
 import { authRoleContext } from '../../ContextApi/AuthContextApi';
 
