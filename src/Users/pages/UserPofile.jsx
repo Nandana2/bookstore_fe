@@ -8,7 +8,7 @@ import { addBookApi,getUserBooksApi,removeUserBookApi,getBoughtBooksApi } from '
 import Edit from '../components/Edit';
 import base_url from '../../services/base_url';
 
-import { profileContext } from '../../contextApi/ContextApi';
+import { profileContext } from '../../ContextApi/ContextApi';
 import { useContext } from 'react';
 
 function UserProfile() {

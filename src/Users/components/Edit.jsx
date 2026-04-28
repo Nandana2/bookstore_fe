@@ -7,7 +7,7 @@ import { getProfileApi, profileUpdateApi } from '../../services/allApis';
 import base_url from '../../services/base_url';
 import { toast, ToastContainer } from 'react-toastify';
 
-import { profileContext } from '../../contextApi/ContextApi';
+import { profileContext } from '../../ContextApi/ContextApi';
 import { useContext } from 'react';
 
 function Edit() {

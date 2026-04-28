@@ -10,7 +10,7 @@ import { FaTrash } from "react-icons/fa";
 
 import { adminAddJobPostApi, adminDeleteJobPostApi, adminListJobPostApi ,getAdminApplicationApi} from "../../services/allApis";
 import { toast } from "react-toastify";
-import { careerContext } from "../../contextApi/ContextApi";
+import { careerContext } from "../../ContextApi/ContextApi";
 
 
 
