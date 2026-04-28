@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react'
 import Header from '../components/Header'
-import Footer from '../../components/Footer'
+import Footer from '../../Components/Footer'
 import { CiSquarePlus } from "react-icons/ci";
 import { toast } from 'react-toastify';
 import { addBookApi,getUserBooksApi,removeUserBookApi,getBoughtBooksApi } from '../../services/allApis'

@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
-import Footer from '../../components/Footer'
+import Footer from '../../Components/Footer'
 import { IoIosPin, IoIosSend } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdMail } from "react-icons/md";

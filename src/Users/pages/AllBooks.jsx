@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Header from "../components/Header";
-import Footer from "../../components/Footer";
+import Footer from "../../Components/Footer";
 
 import { Link } from "react-router-dom";
 import { useContext } from "react";

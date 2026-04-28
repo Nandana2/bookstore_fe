@@ -1,7 +1,7 @@
 import React from 'react'
 import AdminHeader from '../components/AdminHeader'
 import AdminSidebar from '../components/AdminSidebar'
-import Footer from '../../components/Footer'
+import Footer from '../../Components/Footer'
 import { FaPen } from "react-icons/fa";
 
 function Settings() {

@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import AdminHeader from "../components/AdminHeader";
 import AdminSidebar from "../components/AdminSidebar";
-import Footer from "../../components/Footer";
+import Footer from "../../Components/Footer";
 import AddJobPost from "../components/AddJobPost"
 import base_url from "../../services/base_url";
 

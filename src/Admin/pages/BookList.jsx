@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-import Footer from '../../components/Footer'
+import Footer from '../../Components/Footer'
 import AdminHeader from '../components/AdminHeader'
 import AdminSidebar from '../components/AdminSidebar'
 import { Link } from 'react-router-dom'

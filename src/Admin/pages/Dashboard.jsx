@@ -1,6 +1,6 @@
 import React from 'react'
 import AdminHeader from '../components/AdminHeader'
-import Footer from '../../components/Footer'
+import Footer from '../../Components/Footer'
 import AdminSidebar from '../components/AdminSidebar'
 
 import { MdLibraryBooks } from "react-icons/md";

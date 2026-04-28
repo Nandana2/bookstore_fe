@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import Header from '../components/Header'
-import Footer from '../../components/Footer'
+import Footer from '../../Components/Footer'
 
 import { FaLocationDot } from "react-icons/fa6";
 import { RiShareForward2Fill } from "react-icons/ri";

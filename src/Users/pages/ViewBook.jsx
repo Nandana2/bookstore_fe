@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Header from "../components/Header";
-import Footer from "../../components/Footer";
+import Footer from "../../Components/Footer";
 import { FaEye } from "react-icons/fa";
 import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
 import { useState } from "react";
